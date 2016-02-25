@@ -1,4 +1,4 @@
-# replace the contents of this comment with your full name
+# Ryan Lastrapes
 
 # write a program that:
 # 1. greets the user in English
@@ -8,3 +8,15 @@
 
 # make sure that your code contains comments explaining your logic!
 
+while True:
+	print('Hello world! Please enter Spanish, French, or Italian')
+	language = input()
+	if language == 'Spanish':
+		print('Hola!')
+		break
+	if language == 'French':
+		print('Bonjour!')
+		break
+	if language == 'Italian':
+		print('Ciao!')
+		break
